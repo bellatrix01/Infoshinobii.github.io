@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1498590880827-3f79fdcd7fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1bGwlMjBzY3JlZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 219, 219);
+    font-family: sans-serif;
+}
+
+
+.menubar{
+    
+      
+      background: rgb(122, 130, 138);
+      text-align: center;
+      
+}
+.logo{
+    float: left;
+    color: whitesmoke;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+.logoname{
+    padding-top: 15px;
+}
+
+.search{
+    padding-top: 28px;
+    padding-right: 70px;
+    float: right;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    padding-left: 30px;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+ .menubar ul li:hover{
+    background-color: rgb(152, 175, 218);
+    border-radius: 4px;
+}
+.menubar .fa{
+    margin-right: 4px;
+}
+.submenuaboutus{
+    display: none;
+}
+.menubar ul li:hover .submenuaboutus{
+    display: block;
+    position: absolute;
+    background-color: rgb(17, 61, 102);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .submenuaboutus ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .submenuaboutus ul li{
+    width: 130px;
+    padding: 5px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menubar ul li:hover .submenuaboutus ul li:last-child{
+    border-bottom: none;
+}
+.menubar ul li:hover .submenuaboutus ul li a:hover{
+    color: rgb(179, 219, 179);
+}
